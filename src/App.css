@@ -1,0 +1,63 @@
+.container{
+    min-width: 400px;
+    max-width: 550px;
+    margin: 90px 0 0;
+    padding: 20px;
+    border: 1px solid lightgray;
+    border-radius: 4px;
+}
+
+input[type="number"]{
+    width: 60px;
+    margin-left: 8px;
+    padding: 8px;
+    border: 1px solid lightgray;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+.option{
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+}
+
+.option label{
+    margin-bottom: 10px;
+}
+
+input[type="checkbox"]{
+    margin-right: 8px;
+}
+
+button{
+    margin: 20px 0 0;
+    padding: 8px 24px;
+    border: 0;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.generateButton{
+    background-color: forestgreen;
+    color: white;
+}
+
+.generateButton:hover{
+    background-color: green;
+}
+
+.generatetPassword{
+    margin-top: 20px;
+}
+
+.action button{
+    background-color: dodgerblue;
+    color: white;
+    margin-right: 8px;
+}
+
+.action button:hover{
+    background-color: mediumslateblue;
+}
